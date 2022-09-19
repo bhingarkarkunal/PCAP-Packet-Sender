@@ -1,0 +1,14 @@
+server:
+  port: 4000
+  tomcat:
+    max-swallow-size: 50MB
+      
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 4GB
+      max-request-size: 4GB
+      
+        
+    
